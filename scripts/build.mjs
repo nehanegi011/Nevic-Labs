@@ -109,4 +109,22 @@ fs.writeFileSync(path.join(SRC, 'blog', 'posts', `${p.slug}.html`),
     + footer('../../'));
 }
 
+// Copy static pages from src/pages to src root for Netlify
+const pagesDir = path.join(SRC, 'pages');
+
+if (fs.existsSync(pagesDir)) {
+  const pages = fs.readdirSync(pagesDir);
+
+  for (const page of pages) {
+    if (page.endsWith('.html')) {
+      fs.copyFileSync(
+        path.join(pagesDir, page),
+        path.join(SRC, page)
+      );
+    }
+  }
+
+  console.log(`Copied ${pages.length} static pages to src root.`);
+}
+
 console.log(`Built blog index + ${posts.length} post pages.`);
