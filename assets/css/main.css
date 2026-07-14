@@ -6,13 +6,52 @@
   --shadow-sm:0 1px 2px rgba(15,42,82,.06), 0 8px 22px -14px rgba(15,42,82,.18);
   --shadow:0 1px 2px rgba(15,42,82,.06), 0 22px 50px -22px rgba(15,42,82,.28);
 }
+/* Local Montserrat font-face (place .woff2/.woff files in assets/fonts/montserrat/)
+   Expected filenames:
+     Montserrat-Regular.woff2
+     Montserrat-Medium.woff2
+     Montserrat-SemiBold.woff2
+     Montserrat-Bold.woff2
+*/
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+       url('../fonts/montserrat/Montserrat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+       url('../fonts/montserrat/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+       url('../fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+       url('../fonts/montserrat/Montserrat-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:78px}
-body{background:var(--paper);color:var(--ink-2);font-family:'Inter',system-ui,sans-serif;font-size:16.5px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{background:var(--paper);color:var(--ink-2);font-family:'Montserrat','Inter',system-ui,sans-serif;font-size:16.5px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 h1,h2,h3,h4{font-family:'Fraunces','Inter',serif;color:var(--ink);line-height:1.12;font-weight:600;letter-spacing:-.02em}
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
-.wrap{max-width:1200px;margin:0 auto;padding:0 26px}
+.wrap{max-width:1600px;margin:0 auto;padding:0 26px}
 .mono{font-family:'JetBrains Mono',monospace}
 .eyebrow{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-2)}
 .section{padding:110px 0}
