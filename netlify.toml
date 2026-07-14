@@ -1,0 +1,10 @@
+# Netlify Configuration
+
+[build]
+  command = "npm run build"
+  publish = "."
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog/posts/:splat"
+  status = 200
