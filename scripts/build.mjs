@@ -10,9 +10,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, '../..');
+const ROOT = path.resolve(__dirname, '..');
 
-const posts = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/posts.json'), 'utf8'));
+const posts = JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'src', 'data', 'posts.json'), 'utf8')
+);
 
 const NAV = [
   ['solutions.html','Solutions','solutions'],
