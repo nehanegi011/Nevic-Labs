@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+
+# Sitemaps
+Sitemap: https://nevic-labs.com/sitemap.xml
+
+# Crawl delay (optional - set if server is under heavy load)
+# Crawl-delay: 1
+
+# Request rate
+# Request-rate: 30/1m
