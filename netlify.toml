@@ -4,7 +4,3 @@
   command = "npm run build"
   publish = "src"
 
-[[redirects]]
-  from = "/blog/*"
-  to = "/blog/posts/:splat"
-  status = 200
