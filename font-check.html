@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Font Check — Montserrat</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    body{padding:48px;font-family:Montserrat,Inter,system-ui,sans-serif}
+    .ok{color:green}
+    .bad{color:#b00}
+    .note{margin-top:18px;color:#444}
+  </style>
+</head>
+<body>
+  <h1>Montserrat Font Check</h1>
+  <p id="status">Checking availability of <strong>Montserrat</strong>…</p>
+  <p class="note">If this page shows a green success message, Montserrat is loading from <code>assets/fonts/montserrat/</code>. If not, place the WOFF2 files (see README in that folder) and retry.</p>
+
+  <script>
+    (async function(){
+      const out = document.getElementById('status');
+      try{
+        // Quick check
+        if (document.fonts && document.fonts.check("16px Montserrat")) {
+          out.innerHTML = '<span class="ok">Montserrat is available (document.fonts.check).</span>';
+          return;
+        }
+        // Try loading
+        await document.fonts.load("16px Montserrat");
+        if (document.fonts.check("16px Montserrat")) {
+          out.innerHTML = '<span class="ok">Montserrat loaded via document.fonts.load.</span>';
+        } else {
+          out.innerHTML = '<span class="bad">Montserrat did not load. Check assets/fonts/montserrat files.</span>';
+        }
+      } catch (e) {
+        out.innerHTML = '<span class="bad">Error while checking fonts. See console for details.</span>';
+        console.error(e);
+      }
+    })();
+  </script>
+</body>
+</html>
