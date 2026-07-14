@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bgB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2A52"></stop>
+      <stop offset="1" stop-color="#0FA88A"></stop>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="rgba(255,255,255,0.09)"></circle>
+    </pattern>
+  </defs>
+  <rect width="800" height="520" rx="24" fill="url(#bgB)"></rect>
+  <rect width="800" height="520" rx="24" fill="url(#dots)"></rect>
+
+  
+  <g transform="translate(60,60)">
+    <rect x="0" y="0" width="500" height="400" rx="20" fill="#fff" stroke="rgba(15,42,82,0.1)"></rect>
+    <rect x="0" y="0" width="500" height="52" rx="20" fill="#0F2A52"></rect>
+    <rect x="0" y="32" width="500" height="20" fill="#0F2A52"></rect>
+    <circle cx="24" cy="26" r="5" fill="#E86B6B"></circle>
+    <circle cx="42" cy="26" r="5" fill="#F5A524"></circle>
+    <circle cx="60" cy="26" r="5" fill="#3BAE71"></circle>
+    <text x="86" y="30" font-size="12" fill="#fff" letter-spacing="2" font-family="JetBrains Mono, monospace">NEVIC PULSE · DR. ASHISH JOSHI · TODAY</text>
+
+    
+    <g transform="translate(24,76)">
+      <rect x="0" y="0" width="140" height="80" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+      <text x="14" y="30" font-family="Fraunces, serif" font-size="32" fill="#0B1220" font-weight="700">42</text>
+      <text x="14" y="60" font-size="10" fill="#495166" letter-spacing="1">BOOKED</text>
+      <rect x="150" y="0" width="140" height="80" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+      <text x="164" y="30" font-family="Fraunces, serif" font-size="32" fill="#0FA88A" font-weight="700">96%</text>
+      <text x="164" y="60" font-size="10" fill="#495166" letter-spacing="1">SHOW-UP</text>
+      <rect x="300" y="0" width="140" height="80" rx="12" fill="#0F2A52"></rect>
+      <text x="314" y="30" font-family="Fraunces, serif" font-size="32" fill="#F5A524" font-weight="700">T-13</text>
+      <text x="314" y="60" font-size="10" fill="#B7C2D6" letter-spacing="1">CURRENT TOKEN</text>
+    </g>
+
+    
+    <g transform="translate(24,180)" font-size="12" fill="#0B1220">
+      <rect x="0" y="0" width="440" height="26" rx="6" fill="#F6F7FB"></rect>
+      <rect x="0" y="0" width="60" height="26" rx="6" fill="#F5A524" opacity="0.2"></rect>
+      <text x="12" y="17" font-family="JetBrains Mono, monospace" font-size="10" fill="#E48A0A">T-11</text>
+      <text x="76" y="17">Priya Nair</text>
+      <text x="400" y="17" font-size="9" fill="#0FA88A" letter-spacing="1">DONE</text>
+
+      <rect x="0" y="32" width="440" height="26" rx="6" fill="#F6F7FB"></rect>
+      <rect x="0" y="32" width="60" height="26" rx="6" fill="#F5A524" opacity="0.2"></rect>
+      <text x="12" y="49" font-family="JetBrains Mono, monospace" font-size="10" fill="#E48A0A">T-12</text>
+      <text x="76" y="49">Rahul Verma</text>
+      <text x="395" y="49" font-size="9" fill="#F5A524" letter-spacing="1">IN ROOM</text>
+
+      <rect x="0" y="64" width="440" height="26" rx="6" fill="#F6F7FB" stroke="#F5A524" stroke-width="1.5"></rect>
+      <rect x="0" y="64" width="60" height="26" rx="6" fill="#F5A524"></rect>
+      <text x="12" y="81" font-family="JetBrains Mono, monospace" font-size="10" fill="#fff">T-13</text>
+      <text x="76" y="81" font-weight="600">Shyam Sharma</text>
+      <text x="386" y="81" font-size="9" fill="#0F2A52" letter-spacing="1">WAITING</text>
+
+      <rect x="0" y="96" width="440" height="26" rx="6" fill="#F6F7FB"></rect>
+      <text x="76" y="113">Meera Rao</text>
+      <text x="392" y="113" font-size="9" fill="#495166" letter-spacing="1">NEXT UP</text>
+    </g>
+
+    
+    <g transform="translate(24,318)">
+      <text x="0" y="0" font-size="10" fill="#495166" letter-spacing="1">ARRIVALS THIS WEEK</text>
+      <polyline points="0,50 60,32 120,38 180,18 240,26 300,10 360,20 420,6" fill="none" stroke="#0F2A52" stroke-width="2.5"></polyline>
+      <polyline points="0,50 60,32 120,38 180,18 240,26 300,10 360,20 420,6" fill="none" stroke="#F5A524" stroke-width="2.5" stroke-dasharray="4 4"></polyline>
+    </g>
+  </g>
+
+  
+  <g transform="translate(590,190)">
+    <rect x="0" y="0" width="170" height="170" rx="16" fill="rgba(255,255,255,0.94)" stroke="rgba(15,42,82,0.08)"></rect>
+    <text x="18" y="32" font-family="JetBrains Mono, monospace" font-size="10" fill="#E48A0A" letter-spacing="2">REMINDER SENT</text>
+    <text x="18" y="60" font-size="12" fill="#0B1220">Token T-13</text>
+    <text x="18" y="78" font-size="12" fill="#0B1220">Shyam Sharma</text>
+    <text x="18" y="98" font-size="11" fill="#495166">Tomorrow 11:00 AM</text>
+    <circle cx="18" cy="130" r="4" fill="#0FA88A"></circle>
+    <text x="30" y="134" font-size="11" fill="#0FA88A" letter-spacing="1">DELIVERED</text>
+    <circle cx="18" cy="150" r="4" fill="#0FA88A"></circle>
+    <text x="30" y="154" font-size="11" fill="#0FA88A" letter-spacing="1">READ ✓✓</text>
+  </g>
+</svg>

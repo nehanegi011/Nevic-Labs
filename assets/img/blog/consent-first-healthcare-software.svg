@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="g8bxlltbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F2A52"></stop><stop offset="1" stop-color="#1B3E70"></stop></linearGradient>
+    <radialGradient id="g8bxlltgl" cx="0.85" cy="0.1" r="0.7"><stop offset="0" stop-color="#F5A524" stop-opacity="0.18"></stop><stop offset="1" stop-color="#F5A524" stop-opacity="0"></stop></radialGradient>
+    <pattern id="g8bxlltgr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"></path></pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#g8bxlltbg)"></rect>
+  <rect width="800" height="450" fill="url(#g8bxlltgr)"></rect>
+  <rect width="800" height="450" fill="url(#g8bxlltgl)"></rect>
+  
+    <text x="60" y="50" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5A524" letter-spacing="3">CONSENT · FIRST-CLASS CITIZEN</text>
+    <g transform="translate(60,80)"><rect width="340" height="320" rx="14" style="fill:#fff;stroke:rgba(15,42,82,0.1)"></rect>
+      <text x="18" y="34" font-size="11" fill="#495166" letter-spacing="1">CONSENT · SHYAM SHARMA</text>
+      <g transform="translate(18,56)">
+        <rect width="304" height="44" rx="10" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+        <text x="14" y="20" font-size="12" fill="#0B1220" font-weight="500">Store contact for reminders</text>
+        <text x="14" y="36" font-size="10" fill="#495166">Given May 2</text>
+        <g transform="translate(258,10)">
+          <rect width="34" height="22" rx="11" fill="#0FA88A"></rect>
+          <circle cx="23" cy="11" r="8" fill="#fff"></circle>
+        </g>
+      </g><g transform="translate(18,110)">
+        <rect width="304" height="44" rx="10" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+        <text x="14" y="20" font-size="12" fill="#0B1220" font-weight="500">Send appointment updates</text>
+        <text x="14" y="36" font-size="10" fill="#495166">Given May 2</text>
+        <g transform="translate(258,10)">
+          <rect width="34" height="22" rx="11" fill="#0FA88A"></rect>
+          <circle cx="23" cy="11" r="8" fill="#fff"></circle>
+        </g>
+      </g><g transform="translate(18,164)">
+        <rect width="304" height="44" rx="10" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+        <text x="14" y="20" font-size="12" fill="#0B1220" font-weight="500">Share reports on WhatsApp</text>
+        <text x="14" y="36" font-size="10" fill="#495166">Given Jun 4</text>
+        <g transform="translate(258,10)">
+          <rect width="34" height="22" rx="11" fill="#0FA88A"></rect>
+          <circle cx="23" cy="11" r="8" fill="#fff"></circle>
+        </g>
+      </g><g transform="translate(18,218)">
+        <rect width="304" height="44" rx="10" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+        <text x="14" y="20" font-size="12" fill="#0B1220" font-weight="500">Use for marketing broadcasts</text>
+        <text x="14" y="36" font-size="10" fill="#495166">Declined</text>
+        <g transform="translate(258,10)">
+          <rect width="34" height="22" rx="11" fill="#DEE2EC"></rect>
+          <circle cx="11" cy="11" r="8" fill="#fff"></circle>
+        </g>
+      </g>
+      <text x="18" y="304" font-size="10" fill="#495166" letter-spacing="1" font-family="JetBrains Mono, monospace">ONE-TAP WITHDRAW · ANYTIME</text>
+    </g>
+    <g transform="translate(430,80)">
+      <rect width="310" height="320" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect>
+      <text x="20" y="38" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5A524" letter-spacing="3">DATA · AT REST</text>
+      <g transform="translate(120,110)">
+        <path d="M35 0 L70 15 V50 C70 70 50 90 35 100 C20 90 0 70 0 50 V15 Z" fill="none" stroke="#F5A524" stroke-width="3"></path>
+        <path d="M22 52 L32 62 L52 42" fill="none" stroke="#F5A524" stroke-width="3" stroke-linecap="round"></path>
+      </g>
+      <text x="155" y="240" text-anchor="middle" font-family="Fraunces, serif" font-size="18" fill="#fff" font-weight="600">Encrypted · India-hosted</text>
+      <text x="155" y="264" text-anchor="middle" font-size="11" fill="#B7C2D6">DPDP-aligned · audit-logged</text>
+      <text x="155" y="288" text-anchor="middle" font-size="11" fill="#B7C2D6">Role-based access</text>
+    </g>
+  
+</svg>

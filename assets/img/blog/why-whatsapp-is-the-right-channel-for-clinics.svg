@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="g2l9fwdbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5A524"></stop><stop offset="1" stop-color="#E48A0A"></stop></linearGradient>
+    <radialGradient id="g2l9fwdgl" cx="0.85" cy="0.1" r="0.7"><stop offset="0" stop-color="#F5A524" stop-opacity="0.18"></stop><stop offset="1" stop-color="#F5A524" stop-opacity="0"></stop></radialGradient>
+    <pattern id="g2l9fwdgr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"></path></pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#g2l9fwdbg)"></rect>
+  <rect width="800" height="450" fill="url(#g2l9fwdgr)"></rect>
+  <rect width="800" height="450" fill="url(#g2l9fwdgl)"></rect>
+  
+    <text x="60" y="50" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5A524" letter-spacing="3">THE CHANNEL PATIENTS ALREADY OPEN</text>
+    <g transform="translate(60,80)"><rect width="180" height="90" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect><text x="14" y="34" font-family="Fraunces, serif" font-size="30" fill="#F5A524" font-weight="700">500M+</text><text x="14" y="76" font-size="10" fill="#B7C2D6" letter-spacing="1">INDIA USERS</text></g>
+    <g transform="translate(60,190)"><rect width="180" height="90" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect><text x="14" y="34" font-family="Fraunces, serif" font-size="30" fill="#0FA88A" font-weight="700">90%+</text><text x="14" y="76" font-size="10" fill="#B7C2D6" letter-spacing="1">OPEN RATE</text></g>
+    <g transform="translate(60,300)"><rect width="180" height="90" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect><text x="14" y="34" font-family="Fraunces, serif" font-size="30" fill="#F5A524" font-weight="700">0</text><text x="14" y="76" font-size="10" fill="#B7C2D6" letter-spacing="1">LEARNING CURVE</text></g>
+    <g transform="translate(280,80)"><rect width="300" height="320" rx="14" style="fill:#ECE5DD;stroke:#0B1220"></rect>
+      <rect width="300" height="46" rx="14" fill="#0FA88A"></rect>
+      <circle cx="30" cy="24" r="14" fill="#F5A524"></circle>
+      <text x="52" y="20" font-size="12" fill="#fff" font-weight="600">Sunrise Hospital</text>
+      <text x="52" y="34" font-size="10" fill="rgba(255,255,255,0.8)">Business · Online</text>
+      <g transform="translate(14,70)">
+        <rect width="200" height="40" rx="10" fill="#fff" stroke="#e2e2e2"></rect>
+        <text x="12" y="18" font-size="11" fill="#0B1220">नमस्कार 🙏 उद्या भेटीची</text>
+        <text x="12" y="32" font-size="11" fill="#0B1220">वेळ मिळेल का?</text>
+      </g>
+      <g transform="translate(70,116)"><rect width="216" height="24" rx="10" fill="#DCF8C6"></rect><text x="12" y="16" font-size="11" fill="#0B1220">11:30 चालेल? ✓✓</text></g>
+      <g transform="translate(14,148)"><rect width="240" height="42" rx="10" fill="#fff" stroke="#e2e2e2"></rect><text x="12" y="18" font-size="11" fill="#0B1220" font-weight="600">✅ Token T-13</text><text x="12" y="34" font-size="10" fill="#495166">Reminder set 9:00 AM</text></g>
+      <g transform="translate(70,196)"><rect width="216" height="26" rx="10" fill="#DCF8C6"></rect><text x="12" y="18" font-size="11" fill="#0B1220">Thank you 🙏 ✓✓</text></g>
+      <g transform="translate(14,230)"><rect width="272" height="36" rx="10" fill="#fff" stroke="#e2e2e2"></rect><text x="12" y="22" font-size="11" fill="#0B1220">Prescription attached. Refill in 30 days.</text></g>
+    </g>
+    <g transform="translate(600,80)"><rect width="140" height="90" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect><text x="14" y="34" font-family="Fraunces, serif" font-size="30" fill="#0FA88A" font-weight="700">E2E</text><text x="14" y="76" font-size="10" fill="#B7C2D6" letter-spacing="1">ENCRYPTED</text></g>
+    <g transform="translate(600,190)"><rect width="140" height="200" rx="14" style="fill:rgba(255,255,255,0.08);stroke:rgba(255,255,255,0.16)"></rect>
+      <text x="14" y="24" font-size="10" fill="#B7C2D6" letter-spacing="2">DELIVERY</text>
+      <path d="M20 100 L60 60 L100 80 L120 40" fill="none" stroke="#F5A524" stroke-width="2.5"></path>
+      <text x="14" y="150" font-size="10" fill="#B7C2D6" letter-spacing="2">READ IN &lt; 3 MIN</text>
+    </g>
+  
+</svg>

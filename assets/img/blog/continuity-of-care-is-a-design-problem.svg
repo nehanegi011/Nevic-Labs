@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="gppbaynbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B3E70"></stop><stop offset="1" stop-color="#0FA88A"></stop></linearGradient>
+    <radialGradient id="gppbayngl" cx="0.85" cy="0.1" r="0.7"><stop offset="0" stop-color="#F5A524" stop-opacity="0.18"></stop><stop offset="1" stop-color="#F5A524" stop-opacity="0"></stop></radialGradient>
+    <pattern id="gppbayngr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"></path></pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#gppbaynbg)"></rect>
+  <rect width="800" height="450" fill="url(#gppbayngr)"></rect>
+  <rect width="800" height="450" fill="url(#gppbayngl)"></rect>
+  
+    <text x="60" y="50" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5A524" letter-spacing="3">THE CARE LINE</text>
+    <g transform="translate(60,80)"><rect width="680" height="320" rx="14" style="fill:#fff;stroke:rgba(15,42,82,0.1)"></rect>
+      <text x="24" y="42" font-family="Fraunces, serif" font-size="22" fill="#0B1220" font-weight="700">Shyam Sharma · Timeline</text>
+      <text x="24" y="66" font-size="12" fill="#495166">44 · Hypertension · Dr. Ashish Joshi</text>
+      <line x1="60" y1="140" x2="620" y2="140" stroke="#DEE2EC" stroke-width="3"></line>
+      <g transform="translate(100,140)"><circle cx="0" cy="0" r="12" fill="#0F2A52"></circle><text x="0" y="4" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">1</text><text x="0" y="-24" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#0F2A52" letter-spacing="2">JAN</text><text x="0" y="34" text-anchor="middle" font-size="11" fill="#0B1220" font-weight="500">First visit</text></g><g transform="translate(230,140)"><circle cx="0" cy="0" r="12" fill="#0F2A52"></circle><text x="0" y="4" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">2</text><text x="0" y="-24" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#0F2A52" letter-spacing="2">FEB</text><text x="0" y="34" text-anchor="middle" font-size="11" fill="#0B1220" font-weight="500">Follow-up</text></g><g transform="translate(360,140)"><circle cx="0" cy="0" r="12" fill="#0FA88A"></circle><text x="0" y="4" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">3</text><text x="0" y="-24" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#0FA88A" letter-spacing="2">MAR</text><text x="0" y="34" text-anchor="middle" font-size="11" fill="#0B1220" font-weight="500">Lab review</text></g><g transform="translate(490,140)"><circle cx="0" cy="0" r="12" fill="#F5A524"></circle><text x="0" y="4" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">4</text><text x="0" y="-24" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5A524" letter-spacing="2">MAY</text><text x="0" y="34" text-anchor="middle" font-size="11" fill="#0B1220" font-weight="500">Recall</text></g><g transform="translate(620,140)"><circle cx="0" cy="0" r="12" fill="#F5A524"></circle><text x="0" y="4" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">5</text><text x="0" y="-24" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5A524" letter-spacing="2">JUN</text><text x="0" y="34" text-anchor="middle" font-size="11" fill="#0B1220" font-weight="500">This week</text></g>
+      <g transform="translate(24,220)">
+        <text x="0" y="0" font-size="11" fill="#495166" letter-spacing="1">REMINDER · SENT TODAY</text>
+        <rect x="0" y="12" width="620" height="56" rx="10" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+        <text x="14" y="34" font-size="13" fill="#0B1220" font-style="italic">&#34;Namaste Shyam ji, Dr. Joshi will see you Friday 11:30 AM.&#34;</text>
+        <text x="14" y="54" font-size="11" fill="#495166">Referenced: last BP reading, May 12 — 142/94</text>
+      </g>
+    </g>
+  
+</svg>

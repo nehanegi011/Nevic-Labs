@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081B37"></stop>
+      <stop offset="0.55" stop-color="#0F2A52"></stop>
+      <stop offset="1" stop-color="#14325C"></stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#F5A524" stop-opacity="0.22"></stop>
+      <stop offset="1" stop-color="#F5A524" stop-opacity="0"></stop>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"></path>
+    </pattern>
+  </defs>
+  <rect width="800" height="520" rx="24" fill="url(#bgA)"></rect>
+  <rect width="800" height="520" rx="24" fill="url(#grid)"></rect>
+  <rect width="800" height="520" rx="24" fill="url(#glow)"></rect>
+
+  
+  <g transform="translate(80,70)">
+    <rect x="0" y="0" width="300" height="380" rx="34" fill="#0B1220" stroke="rgba(255,255,255,0.08)"></rect>
+    <rect x="10" y="14" width="280" height="352" rx="22" fill="#ECE5DD"></rect>
+    
+    <rect x="10" y="14" width="280" height="42" fill="#0FA88A"></rect>
+    <circle cx="42" cy="35" r="12" fill="#F5A524"></circle>
+    <rect x="62" y="26" width="120" height="8" rx="3" fill="#fff"></rect>
+    <rect x="62" y="40" width="70" height="6" rx="3" fill="rgba(255,255,255,0.7)"></rect>
+    
+    <g>
+      <rect x="26" y="76" width="180" height="34" rx="12" fill="#fff"></rect>
+      <text x="40" y="99" font-size="14" fill="#0B1220">नमस्कार 🙏</text>
+      <rect x="86" y="120" width="180" height="34" rx="12" fill="#DCF8C6"></rect>
+      <text x="100" y="143" font-size="14" fill="#0B1220">11:30 चालेल?</text>
+      <rect x="26" y="164" width="220" height="52" rx="12" fill="#fff"></rect>
+      <text x="40" y="185" font-size="13" fill="#0B1220">✅ Token T-13 booked</text>
+      <text x="40" y="203" font-size="12" fill="#495166">Reminder set for 9:00 AM</text>
+      <rect x="86" y="226" width="180" height="34" rx="12" fill="#DCF8C6"></rect>
+      <text x="100" y="249" font-size="14" fill="#0B1220">Thanks!</text>
+    </g>
+    
+    <rect x="10" y="324" width="280" height="42" fill="#f0f0f0"></rect>
+    <rect x="26" y="336" width="230" height="18" rx="9" fill="#fff"></rect>
+    <circle cx="272" cy="345" r="12" fill="#0FA88A"></circle>
+  </g>
+
+  
+  <g transform="translate(460,80)" opacity="0.92">
+    <rect x="0" y="0" width="260" height="90" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect>
+    <text x="18" y="30" font-size="11" fill="#8FA0BF" letter-spacing="2">TODAY · SUNRISE CLINIC</text>
+    <text x="18" y="66" font-family="Fraunces, serif" font-size="34" fill="#fff" font-weight="700">42 <tspan font-size="16" fill="#B7C2D6" font-family="Inter">booked</tspan></text>
+    <circle cx="240" cy="24" r="5" fill="#0FA88A"></circle>
+  </g>
+
+  <g transform="translate(460,190)">
+    <rect x="0" y="0" width="260" height="90" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect>
+    <text x="18" y="30" font-size="11" fill="#8FA0BF" letter-spacing="2">SHOW-UP RATE</text>
+    <text x="18" y="66" font-family="Fraunces, serif" font-size="34" fill="#F5A524" font-weight="700">96%</text>
+    <path d="M170 60 L200 40 L230 50" stroke="#0FA88A" stroke-width="2.5" fill="none"></path>
+  </g>
+
+  <g transform="translate(460,300)">
+    <rect x="0" y="0" width="260" height="90" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"></rect>
+    <text x="18" y="30" font-size="11" fill="#8FA0BF" letter-spacing="2">LANGUAGES</text>
+    <text x="18" y="66" font-family="Fraunces, serif" font-size="24" fill="#fff" font-weight="600">मराठी · हिन्दी · EN</text>
+  </g>
+</svg>

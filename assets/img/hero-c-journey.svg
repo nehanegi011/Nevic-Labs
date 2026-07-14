@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5A524"></stop>
+      <stop offset="1" stop-color="#0F2A52"></stop>
+    </linearGradient>
+    <pattern id="lines" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="rgba(255,255,255,0.06)" stroke-width="1"></line>
+    </pattern>
+  </defs>
+  <rect width="800" height="520" rx="24" fill="url(#bgC)"></rect>
+  <rect width="800" height="520" rx="24" fill="url(#lines)"></rect>
+
+  
+  <path d="M 90 260 C 240 120, 380 400, 520 260 S 720 120, 740 260" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round"></path>
+
+  
+  <g transform="translate(90,260)">
+    <circle r="44" fill="#0F2A52" stroke="#F5A524" stroke-width="3"></circle>
+    <path d="M-14 -8 h28 v20 h-28z M-14 -8 v-6 h28 v6 M-8 -14 v6 M8 -14 v6" fill="none" stroke="#F5A524" stroke-width="2"></path>
+    <text y="72" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#fff" letter-spacing="2">PRE-VISIT</text>
+    <text y="88" text-anchor="middle" font-size="11" fill="#fff" opacity="0.75">Booking · reminder</text>
+  </g>
+
+  
+  <g transform="translate(310,240)">
+    <circle r="48" fill="#0F2A52" stroke="#F5A524" stroke-width="3"></circle>
+    <path d="M-14 -14 h28 v28 h-28z" fill="none" stroke="#F5A524" stroke-width="2"></path>
+    <path d="M-14 -14 L14 14 M14 -14 L-14 14" stroke="#F5A524" stroke-width="1.5" opacity="0.35"></path>
+    <text y="76" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#fff" letter-spacing="2">VISIT DAY</text>
+    <text y="92" text-anchor="middle" font-size="11" fill="#fff" opacity="0.75">Token · queue · notes</text>
+  </g>
+
+  
+  <g transform="translate(530,260)">
+    <circle r="48" fill="#0F2A52" stroke="#F5A524" stroke-width="3"></circle>
+    <path d="M-14 -8 l14 14 l14 -14" fill="none" stroke="#F5A524" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <text y="76" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#fff" letter-spacing="2">POST-VISIT</text>
+    <text y="92" text-anchor="middle" font-size="11" fill="#fff" opacity="0.75">Rx · feedback</text>
+  </g>
+
+  
+  <g transform="translate(720,240)">
+    <circle r="44" fill="#F5A524" stroke="#fff" stroke-width="3"></circle>
+    <path d="M-14 0 a14 14 0 1 0 4 -10" fill="none" stroke="#0F2A52" stroke-width="2.5" stroke-linecap="round"></path>
+    <path d="M-14 -8 v10 h10" fill="none" stroke="#0F2A52" stroke-width="2.5" stroke-linecap="round"></path>
+    <text y="72" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#fff" letter-spacing="2">FOLLOW-UP</text>
+    <text y="88" text-anchor="middle" font-size="11" fill="#fff" opacity="0.75">Recall · refill</text>
+  </g>
+
+  
+  <g transform="translate(60,60)">
+    <rect x="0" y="0" width="240" height="70" rx="16" fill="rgba(255,255,255,0.95)"></rect>
+    <circle cx="26" cy="35" r="14" fill="#0FA88A"></circle>
+    <path d="M20 30 h12 M20 36 h12 M20 42 h8" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+    <text x="50" y="30" font-size="11" fill="#495166" letter-spacing="1" font-family="JetBrains Mono, monospace">WHATSAPP THREAD</text>
+    <text x="50" y="50" font-size="12" fill="#0B1220">&#34;Confirmed for tomorrow&#34;</text>
+    <text x="50" y="64" font-size="10" fill="#0FA88A">✓✓ Read · 9:41 AM</text>
+  </g>
+
+  
+  <g transform="translate(560,80)">
+    <rect x="0" y="0" width="180" height="50" rx="12" fill="rgba(15,42,82,0.85)"></rect>
+    <text x="90" y="20" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#F5A524" letter-spacing="3">ONE THREAD</text>
+    <text x="90" y="40" text-anchor="middle" font-family="Fraunces, serif" font-size="16" fill="#fff" font-weight="600">The care line</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="gps1kr1bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"></stop><stop offset="1" stop-color="#1B3E70"></stop></linearGradient>
+    <radialGradient id="gps1kr1gl" cx="0.85" cy="0.1" r="0.7"><stop offset="0" stop-color="#F5A524" stop-opacity="0.18"></stop><stop offset="1" stop-color="#F5A524" stop-opacity="0"></stop></radialGradient>
+    <pattern id="gps1kr1gr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"></path></pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#gps1kr1bg)"></rect>
+  <rect width="800" height="450" fill="url(#gps1kr1gr)"></rect>
+  <rect width="800" height="450" fill="url(#gps1kr1gl)"></rect>
+  
+    <text x="60" y="50" font-family="JetBrains Mono, monospace" font-size="10" fill="#F5A524" letter-spacing="3">TRUST BUDGET</text>
+    <g transform="translate(60,80)"><rect width="680" height="320" rx="14" style="fill:#fff;stroke:rgba(15,42,82,0.1)"></rect>
+      <text x="24" y="42" font-family="Fraunces, serif" font-size="22" fill="#0B1220" font-weight="700">Six rules that keep trust intact</text>
+      <g transform="translate(24,76)">
+          <rect width="310" height="66" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+          <circle cx="30" cy="34" r="14" fill="#0FA88A"></circle>
+          <path d="M22 34 l6 6 l12 -12" stroke="#fff" stroke-width="2.5" fill="none"></path>
+          <text x="54" y="30" font-size="13" fill="#0B1220" font-weight="600">Explicit consent</text>
+          <text x="54" y="48" font-size="11" fill="#495166">Never message without opt-in</text>
+        </g><g transform="translate(354,76)">
+          <rect width="310" height="66" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+          <circle cx="30" cy="34" r="14" fill="#0FA88A"></circle>
+          <path d="M22 34 l6 6 l12 -12" stroke="#fff" stroke-width="2.5" fill="none"></path>
+          <text x="54" y="30" font-size="13" fill="#0B1220" font-weight="600">9am–7pm only</text>
+          <text x="54" y="48" font-size="11" fill="#495166">No 11pm reminders</text>
+        </g><g transform="translate(24,156)">
+          <rect width="310" height="66" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+          <circle cx="30" cy="34" r="14" fill="#0FA88A"></circle>
+          <path d="M22 34 l6 6 l12 -12" stroke="#fff" stroke-width="2.5" fill="none"></path>
+          <text x="54" y="30" font-size="13" fill="#0B1220" font-weight="600">One message per day</text>
+          <text x="54" y="48" font-size="11" fill="#495166">Signal, not noise</text>
+        </g><g transform="translate(354,156)">
+          <rect width="310" height="66" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+          <circle cx="30" cy="34" r="14" fill="#0FA88A"></circle>
+          <path d="M22 34 l6 6 l12 -12" stroke="#fff" stroke-width="2.5" fill="none"></path>
+          <text x="54" y="30" font-size="13" fill="#0B1220" font-weight="600">Every message actionable</text>
+          <text x="54" y="48" font-size="11" fill="#495166">Reply, reschedule, confirm</text>
+        </g><g transform="translate(24,236)">
+          <rect width="310" height="66" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+          <circle cx="30" cy="34" r="14" fill="#0FA88A"></circle>
+          <path d="M22 34 l6 6 l12 -12" stroke="#fff" stroke-width="2.5" fill="none"></path>
+          <text x="54" y="30" font-size="13" fill="#0B1220" font-weight="600">Patient&#39;s language</text>
+          <text x="54" y="48" font-size="11" fill="#495166">Marathi · Hindi · English</text>
+        </g><g transform="translate(354,236)">
+          <rect width="310" height="66" rx="12" fill="#F6F7FB" stroke="#DEE2EC"></rect>
+          <circle cx="30" cy="34" r="14" fill="#0FA88A"></circle>
+          <path d="M22 34 l6 6 l12 -12" stroke="#fff" stroke-width="2.5" fill="none"></path>
+          <text x="54" y="30" font-size="13" fill="#0B1220" font-weight="600">One-tap opt-out</text>
+          <text x="54" y="48" font-size="11" fill="#495166">Honoured instantly</text>
+        </g>
+    </g>
+  
+</svg>

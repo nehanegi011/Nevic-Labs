@@ -1,0 +1,17 @@
+{
+  "name": "nevic-labs-site",
+  "version": "1.0.0",
+  "description": "Multi-page static website for Nevic Labs",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "new-post": "node scripts/new-post.mjs"
+  },
+  "keywords": [
+    "nevic",
+    "healthcare",
+    "static-site"
+  ],
+  "author": "Nevic Labs",
+  "license": "MIT"
+}
