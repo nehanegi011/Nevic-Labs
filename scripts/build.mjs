@@ -11,10 +11,15 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
+const SRC = path.join(ROOT, 'src');
 
 const posts = JSON.parse(
-  fs.readFileSync(path.join(ROOT, 'src', 'data', 'posts.json'), 'utf8')
+  fs.readFileSync(path.join(SRC, 'data', 'posts.json'), 'utf8')
 );
+
+// Ensure output directories exist
+fs.mkdirSync(path.join(SRC, 'blog'), { recursive: true });
+fs.mkdirSync(path.join(SRC, 'blog', 'posts'), { recursive: true });
 
 const NAV = [
   ['solutions.html','Solutions','solutions'],
@@ -70,7 +75,7 @@ const cards = posts.map(p => `<a class="post" href="posts/${p.slug}.html">
     <div class="post-meta"><span>${p.readtime}</span><span>${p.date}</span></div>
   </div></a>`).join('');
 
-fs.writeFileSync(path.join(ROOT, 'blog/index.html'),
+fs.writeFileSync(path.join(SRC, 'blog', 'index.html'),
   head('Blog · Field notes','Practical writing on patient engagement and clinic operations.','../')
   + header('blog','../')
   + pageHero('Blog · Field notes','Ideas from the frontline of <em>Indian healthcare</em>.','','<a href="../index.html">Home</a> / Blog')
@@ -87,7 +92,7 @@ for (let i = 0; i < posts.length; i++) {
       <div class="post-body"><h3>${x.title}</h3><p>${x.excerpt}</p></div>
     </a>`).join('');
 
-  fs.writeFileSync(path.join(ROOT, `blog/posts/${p.slug}.html`),
+fs.writeFileSync(path.join(SRC, 'blog', 'posts', `${p.slug}.html`),
     head(p.title, p.excerpt, '../../')
     + header('blog','../../')
     + `<article class="article">

@@ -2,7 +2,7 @@
 
 [build]
   command = "npm run build"
-  publish = "."
+  publish = "src"
 
 [[redirects]]
   from = "/blog/*"
