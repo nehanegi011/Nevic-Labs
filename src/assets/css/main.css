@@ -324,7 +324,7 @@ footer{background:var(--navy-deep);color:#8FA0BF;padding:64px 0 28px}
 .fsocial a:hover{background:var(--accent);color:var(--navy-deep)}
 .fsocial svg{width:17px;height:17px}
 .fbot{border-top:1px solid rgba(255,255,255,.10);padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:#6D7C9C;font-family:'Montserrat'}
-
+.fgrid p a {font-size: 14px;margin-bottom: 4px;}
 /* Stat band */
 .stat-band{background:var(--navy);color:#fff;padding:70px 0;position:relative;overflow:hidden}
 .stat-band::before{content:"";position:absolute;inset:0;background:radial-gradient(900px 400px at 90% 10%, rgba(245,165,36,.10), transparent 60%);pointer-events:none}
