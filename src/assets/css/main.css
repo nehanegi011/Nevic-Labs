@@ -284,7 +284,7 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(246,247,251,.9);back
 .qa div{padding:0 22px 20px;font-size:15px}
 
 /* Contact */
-.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:52px;align-items:start}
+.contact{grid-template-columns:.9fr 1.1fr;gap:52px;align-items:start}
 form{display:grid;gap:14px}
 .r2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 label{font-family:'Montserrat';font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);display:block;margin-bottom:6px}
@@ -293,6 +293,11 @@ textarea{resize:vertical;min-height:100px}
 .consent{font-size:12.5px;line-height:1.5;color:var(--ink-2)}
 .consent a{color:var(--accent-2);text-decoration:underline}
 .ok{display:none;background:rgba(15,168,138,.12);border:1px solid rgba(15,168,138,.35);color:#0F6B5A;border-radius:12px;padding:20px;font-weight:500}
+.contact-lines{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
 .cline{display:flex;gap:12px;align-items:flex-start;font-size:15px;color:var(--ink);margin-bottom:14px}
 .cline svg{width:18px;height:18px;color:var(--accent-2);flex:none;margin-top:3px}
 
@@ -396,6 +401,7 @@ footer{background:var(--navy-deep);color:#8FA0BF;padding:64px 0 28px}
   .burger{display:block}
   .hide-sm{display:none}
   .menu-open{overflow: hidden;}
+  .contact-lines{display: block;}
 }
 @media (max-width:640px){
   body{font-size:15.5px}
