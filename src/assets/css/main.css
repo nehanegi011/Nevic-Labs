@@ -106,7 +106,7 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(246,247,251,.9);back
 .hero-cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
 .hero-meta{display:flex;gap:22px;margin-top:38px;flex-wrap:wrap}
 .hero-meta div{border-left:2px solid rgba(255,255,255,.15);padding-left:14px;max-width:520px}
-.hero-meta b{color:#fff;font-family:'Montserrat';font-size:26px;display:block;line-height:1}
+.hero-meta b{color:#fff;font-family:'Montserrat';font-size:26px;display:block;line-height:20px}
 .hero-meta span{font-family:'Montserrat';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8FA0BF;margin-top:6px;display:block}
 
 .hero-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:22px;padding:26px;backdrop-filter:blur(6px);position:relative}
@@ -388,13 +388,14 @@ footer{background:var(--navy-deep);color:#8FA0BF;padding:64px 0 28px}
   .fbrand{grid-column:1/-1}
   .nav-links{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;background:var(--paper);border-bottom:1px solid var(--line);padding:8px 26px 18px;gap:0}
   .nav-links.open{display:flex}
-  .nav-links a{padding:13px 0;border-bottom:1px solid var(--line)}
-  .nav-drop{width:100%}
+  .nav-links a{padding:13px 0; width: 100%; text-align: left;margin-bottom: 10px;}
+  .nav-drop{width:100%; margin-bottom: 30px;}
   .nav-drop>a{justify-content:space-between;width:100%}
-  .nav-drop-menu{position:static;transform:none;display:flex;border:none;box-shadow:none;background:none;padding:0 0 0 16px;min-width:0}
-  .nav-drop-menu a{border-bottom:1px solid var(--line);border-radius:0;padding:11px 0}
+  .nav-drop-menu{position:static;transform:none;display:flex;border:none;box-shadow:none;background:none;padding:0 0 0 16px;min-width:0; margin-top: 5px;}
+  .nav-drop-menu a{border-radius:0;padding:11px 0}
   .burger{display:block}
   .hide-sm{display:none}
+  .menu-open{overflow: hidden;}
 }
 @media (max-width:640px){
   body{font-size:15.5px}
