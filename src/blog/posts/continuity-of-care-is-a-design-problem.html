@@ -1,64 +1,141 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="The tools that fragment care aren't malicious — they're just built one visit at a time. Here's how we design for the thread instead.">
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Continuity of care is a design problem · Nevic Labs</title>
-<link rel="icon" href="../../assets/img/nevic-logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="../../assets/css/main.css">
-</head><body><header class="nav"><div class="wrap nav-in">
-    <a href="../../index.html" class="brand"><span class="brand-logo"><img src="../../assets/img/nevic-logo.png" alt="Nevic Labs"></span></a>
-    <nav class="nav-links" id="links"><a href="../../solutions.html">Solutions</a><a href="../../products.html">Products</a><a href="../../blog/index.html" class="active">Blog</a><a href="../../about.html">About Us</a><a href="../../careers.html">Careers</a><a href="../../faq.html">FAQ</a><a href="../../contact.html">Contact</a></nav>
-    <div class="nav-r"><a href="../../contact.html" class="btn btn-primary hide-sm">Book a demo</a><button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></div>
-  </div></header><article class="article">
-        <div class="crumbs" style="margin-bottom:14px;color:var(--ink-2)"><a href="../../index.html" style="color:var(--ink-2)">Home</a> / <a href="../index.html" style="color:var(--ink-2)">Blog</a> / Patient Care</div>
-        <div class="cover c5"></div>
-        <div class="amet"><span class="cat">Patient Care</span><span>11 MIN READ</span><span>FEB 09, 2026</span></div>
-        <h1>Continuity of care is a design problem</h1><div class="body"><p>Care isn't episodic; software often is.</p>
-<p>A patient's arthritis, hypertension or diabetes doesn't have a start and an end button.</p>
-<p>But most clinic software models it that way — one visit, one record, one bill, done.</p>
-<p>That gap is not a technical failing. It's a design choice.</p>
-<p>The choice to treat a visit as a document, not a thread.</p>
-<p>We build for the thread.</p>
-<p>The patient's record is a timeline, not a folder.</p>
-<p>Every visit adds to it. Every reminder references it. Every follow-up honours it.</p>
-<p>When the patient returns after six months, the doctor sees the last three visits at a glance, not on page 4 of a PDF.</p>
-<p>When the reception team greets the patient, they know it's a repeat visit before the patient says a word.</p>
-<p>When the recall goes out, it goes out because the timeline says so — not because someone remembered.</p>
-<p>The reminder text isn't generic. It says the doctor's name, the last visit's date, the reason for return.</p>
-<p>The patient feels seen. That feeling is the entire product.</p>
-<p>Continuity is 20% code and 80% respect for context.</p>
-<p>Every screen should show the patient's timeline in some form.</p>
-<p>Every message the system sends should be grounded in what happened last time.</p>
-<p>Every follow-up should be created at the moment of the visit, not the moment of a marketing campaign.</p>
-<p>Every doctor should be able to hand a patient off to another doctor without the patient having to re-tell their story.</p>
-<p>Get that right and the clinic feels different. Patients notice within two visits.</p>
-<p>That's the bar we hold ourselves to on every screen we ship.</p></div>
-        <a class="backlink" href="../index.html">← Back to all posts</a>
-      </article>
-      <section class="related"><div class="wrap">
-        <div class="head" style="margin-bottom:32px"><span class="eyebrow">Keep reading</span><h2 style="font-size:32px">More field notes</h2></div>
-        <div class="blog-grid">
-    <a class="post" href="the-hidden-cost-of-running-on-paper.html">
-      <div class="post-cover c4"><span class="cat">Operations</span></div>
-      <div class="post-body"><h3>The hidden cost of running on paper</h3><p>Most paper-run clinics don't realise how much time and quality they lose every day — until they see the alternative side by side.</p></div>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="The tools that fragment care aren't malicious — they're just built one visit at a time. Here's how we design for the thread instead.">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Continuity of care is a design problem · Nevic Labs</title>
+  <link rel="icon" href="../../assets/img/nevic-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+</head>
+
+<body>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a href="../../index.html" class="brand" aria-label="Nevic Labs home">
+      <span class="brand-logo-full"><img src="../../assets/img/nevic-logo-full.png" alt="Nevic Labs"></span>
     </a>
-    <a class="post" href="the-losses-no-one-tracks.html">
-      <div class="post-cover c7"><span class="cat">Operations</span></div>
-      <div class="post-body"><h3>The losses no one tracks</h3><p>A clinic can lose five patients a day without anyone noticing — because the losses are invisible, and everyone blames the "slow season."</p></div>
-    </a>
-    <a class="post" href="a-field-guide-to-going-digital-in-a-busy-opd.html">
-      <div class="post-cover c1"><span class="cat">Digital Health</span></div>
-      <div class="post-body"><h3>A field guide to going digital in a busy OPD</h3><p>What actually changes when a paper-and-phone clinic goes digital — and the twelve small habits at the front desk that decide whether the switch sticks.</p></div>
-    </a></div>
-      </div></section><footer><div class="wrap"><div class="fgrid">
-  <div class="fbrand"><span class="b"><img src="../../assets/img/nevic-logo.png" alt=""><span>Nevic Labs</span></span><p>Elevating experiences across Indian healthcare — one clinic, one conversation, one thread at a time.</p></div>
-  <div><h5>Product</h5><a href="../../products.html">Nevic Connect</a><a href="../../products.html">Nevic Pulse</a><a href="../../solutions.html">Solutions</a><a href="../../faq.html">FAQ</a></div>
-  <div><h5>Company</h5><a href="../../team.html">Team</a><a href="../../careers.html">Careers</a><a href="../../blog/index.html">Blog</a><a href="../../contact.html">Contact</a></div>
-  <div><h5>Legal</h5><a href="../../privacy.html">Privacy Policy</a></div>
-  <div><h5>Contact</h5><a href="mailto:hello@neviclabs.in">hello@neviclabs.in</a><a href="../../contact.html">Book a demo</a></div>
-</div><div class="fbot"><span>© 2026 NEVIC LABS PRIVATE LIMITED · PUNE, INDIA</span><span>MADE IN INDIA · FOR INDIA'S CLINICS</span></div></div></footer>
-<script src="../../assets/js/main.js"></script></body></html>
+    <nav class="nav-links" id="links">
+      <div class="nav-drop"><a href="../../solutions.html">Solutions</a>
+        <div class="nav-drop-menu"><a href="../../solutions-opd-management.html">OPD Management</a><a href="../../solutions-patient-engagement.html">Patient Engagement</a><a href="../../solutions-digital-marketing.html">Digital Marketing</a></div>
+      </div>
+      <div class="nav-drop"><a href="../../products.html">Products</a>
+        <div class="nav-drop-menu"><a href="../../products-pulse.html">Nevic Pulse</a><a href="../../products-connect.html">Nevic Connect</a><a href="../../products-reach.html">Nevic Reach</a></div>
+      </div>
+      <a href="../index.html">Blog</a>
+      <a href="../../about.html">About Us</a>
+      <a href="../../careers.html">Careers</a>
+      <a href="../../faq.html">FAQ</a>
+      <a href="../../contact.html">Contact</a>
+    </nav>
+    <!-- <div class="nav-r">
+      <a href="../../contact.html" class="btn btn-primary hide-sm">Book a demo</a>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div> -->
+        <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+  </div>
+</header>
+  <article class="article">
+    <div class="crumbs" style="margin-bottom:14px;color:var(--ink-2)"><a href="../../index.html"
+        style="color:var(--ink-2)">Home</a> / <a href="../index.html" style="color:var(--ink-2)">Blog</a> / Patient Care
+    </div>
+    <div class="cover c5"></div>
+    <div class="amet"><span class="cat">Patient Care</span><span>11 MIN READ</span><span>FEB 09, 2026</span></div>
+    <h1>Continuity of care is a design problem</h1>
+    <div class="body">
+      <p>Care isn't episodic; software often is.</p>
+      <p>A patient's arthritis, hypertension or diabetes doesn't have a start and an end button.</p>
+      <p>But most clinic software models it that way — one visit, one record, one bill, done.</p>
+      <p>That gap is not a technical failing. It's a design choice.</p>
+      <p>The choice to treat a visit as a document, not a thread.</p>
+      <p>We build for the thread.</p>
+      <p>The patient's record is a timeline, not a folder.</p>
+      <p>Every visit adds to it. Every reminder references it. Every follow-up honours it.</p>
+      <p>When the patient returns after six months, the doctor sees the last three visits at a glance, not on page 4 of
+        a PDF.</p>
+      <p>When the reception team greets the patient, they know it's a repeat visit before the patient says a word.</p>
+      <p>When the recall goes out, it goes out because the timeline says so — not because someone remembered.</p>
+      <p>The reminder text isn't generic. It says the doctor's name, the last visit's date, the reason for return.</p>
+      <p>The patient feels seen. That feeling is the entire product.</p>
+      <p>Continuity is 20% code and 80% respect for context.</p>
+      <p>Every screen should show the patient's timeline in some form.</p>
+      <p>Every message the system sends should be grounded in what happened last time.</p>
+      <p>Every follow-up should be created at the moment of the visit, not the moment of a marketing campaign.</p>
+      <p>Every doctor should be able to hand a patient off to another doctor without the patient having to re-tell their
+        story.</p>
+      <p>Get that right and the clinic feels different. Patients notice within two visits.</p>
+      <p>That's the bar we hold ourselves to on every screen we ship.</p>
+    </div>
+    <a class="backlink" href="../index.html">← Back to all posts</a>
+  </article>
+  <section class="related">
+    <div class="wrap">
+      <div class="head" style="margin-bottom:32px"><span class="eyebrow">Keep reading</span>
+        <h2 style="font-size:32px">More field notes</h2>
+      </div>
+      <div class="blog-grid">
+        <a class="post" href="the-hidden-cost-of-running-on-paper.html">
+          <div class="post-cover c4"><span class="cat">Operations</span></div>
+          <div class="post-body">
+            <h3>The hidden cost of running on paper</h3>
+            <p>Most paper-run clinics don't realise how much time and quality they lose every day — until they see the
+              alternative side by side.</p>
+          </div>
+        </a>
+        <a class="post" href="the-losses-no-one-tracks.html">
+          <div class="post-cover c7"><span class="cat">Operations</span></div>
+          <div class="post-body">
+            <h3>The losses no one tracks</h3>
+            <p>A clinic can lose five patients a day without anyone noticing — because the losses are invisible, and
+              everyone blames the "slow season."</p>
+          </div>
+        </a>
+        <a class="post" href="a-field-guide-to-going-digital-in-a-busy-opd.html">
+          <div class="post-cover c1"><span class="cat">Digital Health</span></div>
+          <div class="post-body">
+            <h3>A field guide to going digital in a busy OPD</h3>
+            <p>What actually changes when a paper-and-phone clinic goes digital — and the twelve small habits at the
+              front desk that decide whether the switch sticks.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="wrap">
+      <div class="fgrid">
+        <div class="fbrand"><span class="b"><img src="../../assets/img/nevic-logo.png" alt=""><span>Nevic
+              Labs</span></span>
+          <p>Elevating experiences across Indian healthcare — one clinic, one conversation, one thread at a time.</p>
+        </div>
+        <div>
+          <h5>Product</h5><a href="../../products.html">Nevic Connect</a><a href="../../products.html">Nevic Pulse</a><a
+            href="../../solutions.html">Solutions</a><a href="../../faq.html">FAQ</a>
+        </div>
+        <div>
+          <h5>Company</h5><a href="../../team.html">Team</a><a href="../../careers.html">Careers</a><a
+            href="../../index.html">Blog</a><a href="../../contact.html">Contact</a>
+        </div>
+        <div>
+          <h5>Legal</h5><a href="../../privacy.html">Privacy Policy</a>
+        </div>
+        <div>
+          <h5>Contact</h5><a href="mailto:hello@neviclabs.in">hello@neviclabs.in</a><a href="../../contact.html">Book a
+            demo</a>
+        </div>
+      </div>
+      <div class="fbot"><span>© 2026 NEVIC LABS PRIVATE LIMITED · PUNE, INDIA</span><span>MADE IN INDIA · FOR INDIA'S
+          CLINICS</span></div>
+    </div>
+  </footer>
+  <script src="../../src/assets/js/main.js"></script>
+</body>
+
+</html>
