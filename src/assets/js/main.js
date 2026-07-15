@@ -5,12 +5,20 @@
   if (burger && links) {
     burger.addEventListener('click', function () {
       var open = links.classList.toggle('open');
+
       burger.setAttribute('aria-expanded', open);
+
+      // Lock/unlock background page scrolling
+      document.body.classList.toggle('menu-open', open);
     });
+
     links.querySelectorAll('a').forEach(function (a) {
       a.addEventListener('click', function () {
         links.classList.remove('open');
         burger.setAttribute('aria-expanded', 'false');
+
+        // Restore page scrolling
+        document.body.classList.remove('menu-open');
       });
     });
   }
