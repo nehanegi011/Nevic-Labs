@@ -299,9 +299,9 @@ textarea{resize:vertical;min-height:100px}
 
 /* Privacy */
 .privacy-body{max-width:100%;background:#fff;border:1px solid var(--line);border-radius:18px;padding:36px;box-shadow:var(--shadow-sm)}
-.privacy-body h2{font-size:18px;margin:30px 0 20px;font-family:'Montserrat';font-weight:700}
+.privacy-body h2{font-size:18px;margin:30px 0 20px;font-family:'Montserrat';font-weight:600; color:#495166}
 .privacy-body h2:first-child{margin-top:0}
-.privacy-body h3{font-size:16px;margin:0 0 10px;}
+.privacy-body h3{font-size:16px;margin:0 0 10px;color:#495166}
 .privacy-body table {
     width: 100%;
     border-collapse: collapse;
@@ -439,4 +439,7 @@ footer{background:var(--navy-deep);color:#8FA0BF;padding:64px 0 28px}
   .sol-grid,.blog-grid,.vals,.r2{grid-template-columns:1fr}
   .fgrid{grid-template-columns:1fr 1fr}
   .brand-name small{display:none}
+  .privacy-body{padding: 20px}
+  .privacy-body h2{font-size: 16px; line-height: 24px;}
+  .privacy-body h3{line-height: 28px;}
 }
